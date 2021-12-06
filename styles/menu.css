@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+}
+.harami::after {
+    content:"";
+    width: 180px;
+    padding: 2px;
+}
+
+.food {
+    padding: 2px
+}
