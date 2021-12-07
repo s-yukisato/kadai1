@@ -8,9 +8,23 @@
     <link rel="stylesheet" href="./styles/menu.css">
 </head>
 <body>
-    <h1>メニュー</h1>
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <a href="index.html" class="home"><img src="./assets/title.svg" height="60px" alt=""></a>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#buta">豚肉</a></li>
+            <li class="tab"><a href="#gyuniku">牛肉</a></li>
+            <li class="tab"><a href="#tori">鶏肉</a></li>
+          </ul>
+        </div>
+      </nav>
     <div class="container">
-        <div class="buta item">
+        <h4>モットー</h4>
+        <h6>中途半端なものは提供しません。
+            <br>一流の肉を格安で！</h6>
+        <div class="item" id="buta">
             <div class="food">
                 <img src="./images/buta_horumon.jpg" alt="豚ホルモン" width="180px">
                 <p>豚ホルモン</p>
@@ -20,13 +34,7 @@
                 <p>豚タン</p>
             </div>
         </div>
-        <div class="harami item">
-            <div class="food">
-                <img src="./images/harami.jpg" alt="豚ホルモン" width="180px">
-                <p>ハラミ</p>
-            </div>    
-        </div>
-        <div class="karubi item">
+        <div class="item" id="gyuniku">
             <div class="food">
                 <img src="./images/karubi.jpg" alt="豚ホルモン" width="180px">
                 <p>カルビ</p>
@@ -35,15 +43,19 @@
                 <img src="./images/koudai_karubi.jpg" alt="豚ホルモン" width="180px">
                 <p>工大カルビ</p>
             </div>
+            <div class="food">
+                <img src="./images/harami.jpg" alt="豚ホルモン" width="180px">
+                <p>ハラミ</p>
+            </div>  
         </div>
-        <div class="tori item">
+        <div class="tori item" id="tori">
             <div class="food">
                 <img src="./images/tori_momo.jpg" alt="豚ホルモン" width="180px">
                 <p>鶏もも</p>
             </div>
             <div class="food">
                 <img src="./images/tori_yagen.jpg" alt="豚ホルモン" width="180px">
-                <p>鶏やげん</p>
+                <p>ハラミ付きヤゲン</p>
             </div>
         </div>
     </div>
