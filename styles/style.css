@@ -123,3 +123,100 @@ a:active { color: #ff8000; }
     align-items: center;
     margin-top: auto;
 }
+
+@media screen and (max-width: 650px) {
+    .item {
+      padding: 1rem 3rem;
+      flex-direction: column;
+    }
+    .aft {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .nav li {
+        font-size:16px
+    }
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #ddd; }
+a:active { color: #ff8000; }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-wrapper {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.nav li {
+    padding-right: 16px;
+}
+
+.container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding-bottom: 40px;;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 3em;
+}
+h5 {
+    font-size: 2em;
+}
+h6 {
+    font-size: 1.5em;
+}
+
+.food {
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.aft {
+    width: 200px;
+    padding: 10px;
+}
